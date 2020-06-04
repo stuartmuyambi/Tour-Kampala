@@ -1,20 +1,47 @@
 /*Custom Fonts*/
 @font-face {
-	font-family: 'Roboto-Regular';
-	src: url('../fonts/roboto/Roboto-Regular.ttf');
-	font-weight: normal;
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'Roboto-Medium';
-	src: url('../fonts/roboto/Roboto-Medium.ttf');
-	font-weight: Medium;
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+    font-weight: Medium;
 }
 
 @font-face {
-	font-family: 'Roboto-Bold';
-	src: url('../fonts/roboto/Roboto-Bold.ttf');
-	font-weight: Bold;
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/roboto/Roboto-Bold.ttf');
+    font-weight: Bold;
 }
 
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+/*Header styles*/
+
+header {
+	background: url('../images/tk-mobile.jpg') no-repeat bottom;
+	height: 70vh;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Roboto-Bold.ttf', sans-serif;
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 0;
+	color: white;
+	text-transform: uppercase;
+}
