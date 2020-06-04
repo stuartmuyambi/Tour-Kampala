@@ -17,6 +17,10 @@
     font-weight: Bold;
 }
 
+:root {
+	--primary-color: #38b2ac;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -30,18 +34,78 @@ body {
 
 header {
 	background: url('../images/tk-mobile.jpg') no-repeat bottom;
-	height: 70vh;
+	background-size: cover;
+	height: 80vh;
+	color: white;
+	text-align: center;
 	margin: 0;
-	display: flex;
+	/*display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;*/
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 12px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+	width: 3rem;
+	justify-content: space-between;
+}
+
+.nav-svg  {
+	width: 19px;
+}
+
+.logo {
+	color: white;
+	font-family: 'Roboto-Bold';
+	font-size: 1.8rem;
+	line-height: 0;
+}
+
+.dot {
+	color: var(--primary-color);
+	font-size: 4rem;
+	line-height: 0;
 }
 
 h1 {
 	font-family: 'Roboto-Bold.ttf', sans-serif;
+	padding: 5rem 0 0 0;
 	text-align: center;
 	font-size: 2.5rem;
+	text-shadow: 1px 1px 2px black;
 	margin: 0;
-	color: white;
 	text-transform: uppercase;
 }
+
+header p {
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	padding-bottom: 45px;
+	margin-bottom: 0;
+	/*text-shadow: 0 1px 1px black;*/
+}
+
+.btn {
+	background-color: var(--primary-color);
+	color: white;
+	text-decoration: none;
+	padding: 0.9rem 2.7rem; 
+	border-radius: .2rem;
+	transition: background-color 0.3s;
+}
+
+.btn:hover {
+	background-color: rgba(44,122,123);
+}
+
