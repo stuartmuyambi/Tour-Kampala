@@ -34,9 +34,9 @@ body {
 /*Header styles*/
 
 header {
-	background: url('../images/tk-mobile.jpg') no-repeat bottom;
+	background: linear-gradient(to top, white 3%, transparent 25%) ,url('../images/tk-mobile.jpg') no-repeat bottom;
 	background-size: cover;
-	height: 80vh;
+	height: 100vh;
 	color: white;
 	text-align: center;
 	margin: 0 0 2rem 0;
