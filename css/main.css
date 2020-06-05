@@ -116,6 +116,7 @@ form {
 	border-radius: var(--border-radius);
 	background-color: #edf2f7;
 	padding: .8rem 1rem;
+	transition: box-shadow 0.2s;
 }
 
 .input-container:focus-within {
