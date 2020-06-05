@@ -19,6 +19,7 @@
 
 :root {
 	--primary-color: #38b2ac;
+	--border-radius: .2rem;
 }
 
 * {
@@ -53,7 +54,7 @@ nav ul {
 	padding: 0;
 	display: inline-flex;
 	width: 3rem;
-	justify-content: space-between;
+	justify-content: flex-end;
 }
 
 .nav-svg  {
@@ -96,7 +97,7 @@ header p {
 	color: white;
 	text-decoration: none;
 	padding: 0.9rem 2.7rem; 
-	border-radius: .2rem;
+	border-radius: var(--border-radius);
 	transition: background-color 0.3s;
 }
 
