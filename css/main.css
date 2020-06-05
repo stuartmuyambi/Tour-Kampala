@@ -95,6 +95,7 @@ header p {
 .btn {
 	background-color: var(--primary-color);
 	color: white;
+	font-size: 15px;
 	text-decoration: none;
 	padding: 0.9rem 2.7rem; 
 	border-radius: var(--border-radius);
@@ -154,6 +155,7 @@ input:focus {
 
 ::placeholder {
 	color: #6e7072;
+	font-size: 15px;
 }
 
 /*Cards Section*/
@@ -166,11 +168,12 @@ section {
 section h2,
 section > p {
 	text-align: center;
+	font-size: 15px;
 }
 
 section h2 {
 	color: #313131;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	margin: .2rem 0;
 }
 
@@ -232,6 +235,7 @@ section p {
 }
 
 .description {
+	font-size: 15px;
 	margin: 0 .5rem  auto;
 }
 
