@@ -34,7 +34,7 @@ body {
 /*Header styles*/
 
 header {
-	background: linear-gradient(to top, white 3%, transparent 25%) ,url('../images/tk-mobile.jpg') no-repeat bottom;
+	background: linear-gradient(to top, white 2%, transparent 25%) ,url('../images/tk-mobile.jpg') no-repeat bottom;
 	background-size: cover;
 	height: 100vh;
 	color: white;
@@ -137,6 +137,7 @@ button {
 	width: 100%;
 	border: none;
 	text-transform: capitalize;
+	cursor: pointer;
 }
 
 input {
@@ -153,4 +154,117 @@ input:focus {
 
 ::placeholder {
 	color: #6e7072;
+}
+
+/*Cards Section*/
+
+section {
+	margin: 1rem .9rem;
+	padding: 1rem .2rem;
+}
+
+section h2,
+section > p {
+	text-align: center;
+}
+
+section h2 {
+	color: #313131;
+	font-size: 1.7rem;
+	margin: .2rem 0;
+}
+
+section p {
+	color: #949090;
+	line-height: 1.5;
+}
+
+.card {
+	width: 100%;
+	height: 25rem;
+	margin-top: 2rem;
+	background-color: #edf2f7;
+	display: flex;
+	flex-direction: column;
+}
+
+.card-header {
+	height: 40%;
+	background: url('../images/thumbnails/card-1.jpg');
+	background-size: cover;
+}
+
+.card-header img {
+	width: 100%;
+}
+
+.card-title > h3 {
+ margin: 0;
+ color: #313131;
+ font-size: 1.1rem;
+
+}
+
+
+.card-title {
+	margin: 1rem .5rem .5rem;
+	display: grid;
+	grid-template-columns: 80% 20%;
+	grid-template-rows: 1.7em 1.7em;
+	align-items: center;
+}
+
+.cost {
+ font-size: 1.2rem;
+ line-height: 0;
+	color: var(--primary-color);
+	font-family: 'Roboto-Bold';
+	margin: 0;
+	justify-self: end;
+}
+
+.rating {
+	display: flex;
+}
+
+.rating img {
+	width: 18px;
+}
+
+.description {
+	margin: 0 .5rem  auto;
+}
+
+.card-footer {
+	background-color: var(--primary-color);
+	padding: 1rem 1rem;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+[class^="item"] {
+	display: flex;
+	justify-content: space-around;
+}
+
+[class^="item"] p {
+	color: white;
+	margin: 0;
+	font-size: 0.938rem;
+}
+
+[class^="item-1"] img {
+	width: 18px;
+	margin-right: 5px;
+}
+
+[class^="item-2"] img {
+	width: 14px;
+	margin-right: 5px;
+}
+
+[class^="item-3"] img {
+	width: 12px;
+	margin-right: 6px;
 }
