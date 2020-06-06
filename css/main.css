@@ -189,7 +189,7 @@ section p {
     background-color: #edf2f7;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 2px 5px gray;
+    box-shadow: 0 1px 20px gray;
 }
 
 .card-header-1 {
