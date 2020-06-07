@@ -353,4 +353,10 @@ section p {
     margin-left: auto;
 }
 
+.city {
+    height: 250px;
+    background: linear-gradient(to bottom, white 2%, transparent 30%), url('../images/city.jpg');
+    background-size: cover;
+}
+
 
