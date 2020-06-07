@@ -31,6 +31,11 @@ body {
     font-family: 'Roboto-Regular', sans-serif;
 }
 
+::selection {
+	background-color: var(--primary-color);
+	color: white;
+}
+
 /*Header styles*/
 
 header {
@@ -116,7 +121,8 @@ form {
     margin-bottom: 1rem;
     border-radius: var(--border-radius);
     background-color: #edf2f7;
-    padding: .8rem 1rem;
+    height: 3rem;
+    padding: 0 1rem;
     transition: box-shadow 0.2s;
 }
 
@@ -130,7 +136,7 @@ form {
 }
 
 .input-container img {
-    width: 1.7rem;
+    width: 1.5rem;
     padding-right: .5rem;
 }
 
@@ -249,7 +255,7 @@ section p {
 
 .description {
     font-size: 15px;
-    margin: 0 .5rem auto;
+    margin: 0 .6rem auto;
 }
 
 .card-footer {
