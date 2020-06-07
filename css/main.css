@@ -326,7 +326,7 @@ section p {
     color: white;
     height: 100%;
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,3 +337,20 @@ section p {
 .overlay:hover {
     opacity: 1;
 }
+
+/*Tour types section*/
+.tours {
+    display: flex;
+    font-size: 15px;
+}
+
+.tours img {
+    width: 25px;
+    margin-right: .8rem;
+}
+
+.tours p + p {
+    margin-left: auto;
+}
+
+
