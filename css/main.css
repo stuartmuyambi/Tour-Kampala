@@ -359,4 +359,29 @@ section p {
     background-size: cover;
 }
 
+footer {
+    background-color: #1a202c;
+    width: 100%;
+    padding: 1.5rem;
+    color: #e2e8f0;
+}
+
+footer p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.social {
+    display: flex;
+}
+
+.social img {
+    width: 16px;
+    margin-right: 1rem;
+}
+
+.social img:first-child {
+    width: 11px;
+}
+
 
