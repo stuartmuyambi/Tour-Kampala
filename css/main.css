@@ -457,5 +457,17 @@ section:nth-child(6) > p:nth-child(2) {
     margin: 60px 0;
 }
 
+/* Media Queries */
+
+@media (min-width: 768px) {
+    header {
+    background: url('../images/crested.jpg') no-repeat bottom;
+    background-size: cover;
+    height: 28rem;
+    color: white;
+    margin: 0 0 2rem 0;
+}
+}
+
 
 
