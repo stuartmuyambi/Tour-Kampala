@@ -173,6 +173,12 @@ section:nth-child(6) > p:nth-child(2) {
     padding: 0.8rem 1rem;
     margin: 1.9rem 0 ;
     border-radius: var(--border-radius);
+    transition: box-shadow 0.2s;
+}
+
+.input-2:focus {
+    box-shadow: 0 0 0 1px #38b2aca1, 0 0 0 4px #38b2ac66;
+    background-color: white;
 }
 
 .form-2 {
@@ -388,6 +394,10 @@ footer p {
     line-height: 1.5;
 }
 
+.footer-column {
+    margin-bottom: 2rem;
+}
+
 .social {
     display: flex;
 }
@@ -409,6 +419,22 @@ section:nth-child(6) > h2:nth-child(1) {
 
 section:nth-child(6) > p:nth-child(2) {
     font-size: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #e2e8f0;
+    line-height: 1.5;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: var(--primary-color);
 }
 
 
