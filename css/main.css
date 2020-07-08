@@ -469,11 +469,13 @@ section:nth-child(6)>p:nth-child(2) {
     }
 
     .main-form {
-        width: 92%;
+        width: 97%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        box-shadow: -2px 3px 20px 0px grey;
         grid-gap: 1rem;
+        padding: 1.5rem 1.2rem;
     }
 
     .input-container {
